@@ -46,13 +46,12 @@
                         }
                     }
                 }
-                //print_r($fichiers);
                 if(isset($_POST['soumis']) && $_POST['soumis'])
                 {
                     print_r($_POST["galerie"]);
                     print_r($_POST["nom_galerie"]);
                 }
-                ?>
+                ?> 
             <div class="enveloppe">
                 <h1>Mini-projet Galerie</h1>
                 <H2 align="center">Projet pour la remise à niveau, sans SQL</H2>
