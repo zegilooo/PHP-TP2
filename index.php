@@ -46,6 +46,7 @@
                         }
                     }
                 }
+                //print_r($fichiers);
                 if(isset($_POST['soumis']) && $_POST['soumis'])
                 {
                     print_r($_POST["galerie"]);
